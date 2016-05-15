@@ -3,7 +3,8 @@
 
 root = File.absolute_path(File.dirname(__FILE__))
  
-file_cache_path root + "/cache/"
+#file_cache_path root + "/cache/"
 #cookbook_path root + '/cookbooks/new'
-cookbook_path root + '/cookbooks/'
-#cookbook_path "~/test/chef/cookbooks/new"
+#cookbook_path root + '/cookbooks/'
+file_cache_path "~/test/chef/solo-cfg/cache"
+cookbook_path "~/test/chef/cookbooks/new"
